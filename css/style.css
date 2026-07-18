@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+  	padding: 0;
+}
+
+.header-container{
+	position: fixed;
+	background-color: rgb(36, 37, 37);
+	width: 100%;
+	height: 70px;
+	unicode-bidi: isolate;
+	z-index: 1;
+	top: 0px;
+	border-bottom: 1px solid rgb(113, 111, 111);
+}
+
+.header{
+	width: 69%;
+	height: 100%;
+	justify-self: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo>img{
+	color: white;
+	width: 	115px;
+}
+
+.navs{
+	margin-left: 70px;
+	width: 	35%;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	color: rgb(129, 131, 133);
+}
+
+
+body{
+	background-color: rgb(24, 25, 26);
+	font-family: sans-serif;
+}
+.main-container{
+	margin-top: 90px;
+	max-width: 69%;
+	background-color: rgb(36, 37, 37);
+	justify-self: center;
+	color: aliceblue;
+	padding: 20px;
+	border-radius: 8px;
+}
+.title{
+	margin: 40px 0px;
+	font-size: 20px;
+}
+.info-container{
+	display: flex;
+}
+
+.info-image>img{
+	width: 260px;
+	border-radius: 10px;
+}
+.info-watch-button{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	border-radius: 8px;
+	background-color: firebrick;
+	color: aliceblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.info-watch-button:hover {
+	background-color: rgb(96, 19, 19);
+}
+
+.info-watch-button:active {
+	background-color: rgb(96, 19, 19);
+}
+
+
+.info-watch-label{
+	width: 60%;
+	display: flex;
+	font-size: 16px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10px;
+}
+.series-count{
+	padding-right: 10px;
+	color: rgba(255, 255, 255, 0.627)
+}
+.info-watch-label>img{
+	margin-right: 5px;
+	width: 	16px;
+	height: 16px;
+}
+
+.info-right{
+	font-size: 16px;
+	margin-left: 30px;
+	line-height: 27px;
+}
+
+.table-label{
+	color: rgb(129, 131, 133);
+	width: 250px;
+}
+
+a{
+	text-decoration: none;
+	color: salmon;
+	
+}
+
+.description-container{
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.description{
+	padding: 20px 0px;
+}
+
+.frames-container>h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.frames{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.frame{
+	border-radius: 8px;
+	width: 24%;
+}
